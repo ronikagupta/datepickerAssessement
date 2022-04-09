@@ -72,7 +72,7 @@ export default function DatePicker1() {
               className="select"
               labelledBy="Select"
               valueRenderer={() => {
-                return <div style={{ color: "#556e9a" }}>Select</div>;
+                return <div style={{ color: "#556e9a" }}>Select{selected.length?selected.length:null}</div>;
               }}
               ItemRenderer={(data) => {
                 const val = selected.map((v) => v.value);

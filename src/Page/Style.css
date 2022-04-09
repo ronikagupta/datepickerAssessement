@@ -131,7 +131,7 @@ h1 {
   /* border-radius: var(--rmsc-radius); */
   border-radius: 10px;
 
-  background: var(--rmsc-bg);
+  background: #142a51 !important;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 11px rgba(0, 0, 0, 0.1);
 }
 
@@ -203,11 +203,11 @@ h1 {
 
 .rmsc .select-item:hover,
 .rmsc .select-item:focus {
-  background: var(--rmsc-hover);
+  background:#142a51 !important;
 }
 
 .rmsc .select-item.selected {
-  background: var(--rmsc-selected);
+  background:#29416a !important;
 }
 
 .rmsc .no-options {
