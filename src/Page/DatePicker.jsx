@@ -62,7 +62,7 @@ export default function DatePicker1() {
         <div className="col-md-4 ms-5">
           <div>
             <h1>Select Employee Dropdown</h1>
-            <pre>{JSON.stringify(selected)}</pre>
+         
             <MultiSelect
               multi
               options={options}
