@@ -129,7 +129,7 @@ h1 {
 .rmsc .dropdown-content .panel-content {
   overflow: hidden;
   /* border-radius: var(--rmsc-radius); */
-  border-radius: 10px;
+  border-radius: 10px !important;
 
   background: #142a51 !important;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 11px rgba(0, 0, 0, 0.1);
@@ -138,11 +138,11 @@ h1 {
 .rmsc .dropdown-container {
   position: relative;
   outline: 0;
-  background-color: #f0f5fb;
-  border: 1px solid var(--rmsc-border);
+  background-color: #f0f5fb !important;
+  border: 1px solid var(--rmsc-border) !important;
   /* border-radius: var(--rmsc-radius); */
 
-  border-radius: 16px;
+  border-radius: 16px !important;
 }
 
 .rmsc .dropdown-container[aria-disabled="true"]:focus-within {
